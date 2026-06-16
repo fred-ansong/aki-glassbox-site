@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKI Glass Box</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    section {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AKI Glass Box</h1>
+  <p>Interpretable renal trajectory and decision-support platform.</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>The Problem</h2>
+    <p>
+      Acute Kidney Injury (AKI) is a serious and potentially life-threatening condition associated 
+      with increased morbidity, mortality, and healthcare costs. According to the International Society of 
+      Nephrology's 0by25 Initiative and subsequent AKI research, many cases are first encountered by non-specialist 
+      clinicians, where early recognition can be difficult because relevant information is distributed across laboratory 
+      results, medications, notes, urine output, and overall patient context. Studies have shown that increasing 
+      AKI severity is strongly associated with increased mortality, while no consistently effective treatment for 
+      established AKI has demonstrated clear clinical benefit. As a result, timely identification of high-risk 
+      patients and clearer interpretation of evolving renal status remain critical opportunities for prevention-focused 
+      management.
+
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>What It Does</h2>
+    <p>
+      AKI Glass Box uses machine-learning models to estimate next-48-hour AKI risk while simultaneously summarizing 
+      the evidence behind that prediction. The platform synthesizes renal lab trajectories, note-derived findings, 
+      and patient context into an interpretable clinician-facing view designed to support reasoning under uncertainty. 
+      In addition to risk estimation, the system provides contextual differential support by highlighting possible 
+      contributing factors—such as nephrotoxin exposure, infection-related findings, fluid-status signals, and other 
+      renal-relevant context—allowing clinicians to inspect the reasoning behind the output rather than relying on a risk 
+      score alone.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Example Output</h2>
+    <p>Sample clinician-facing output will be shown here.</p>
+
+    <img src="UI_v01_sample_out.png" alt="AKI Glass Box sample output">
+  </div>
+
+  <div class="card">
+    <h2>Clinical Feedback Requested</h2>
+    <ul>
+      <li>What information is missing?</li>
+      <li>What information is useful or unnecessary?</li>
+      <li>Would this fit into real clinical workflow?</li>
+      <li>What would need to change for this to be useful?</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>
+      Frederick Ansong<br />
+      Computer Science | Pre-Med Minor<br />
+      Email: your-email@example.com<br />
+      LinkedIn: your-linkedin-url
+    </p>
+  </div>
+</section>
+
+<footer>
+  AKI Glass Box — project under development
+</footer>
+
+</body>
+</html>
